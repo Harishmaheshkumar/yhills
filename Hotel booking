@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-df=pd.read_csv("hotel bookings")
+df=pd.read_csv("hotel bookings.csv")
 df.shape
 df.info()
 df.isnull().sum()
