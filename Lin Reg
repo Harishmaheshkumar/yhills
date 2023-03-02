@@ -19,6 +19,19 @@ car_df.sample(10)
 
 car_df.drop("car name",axis=1,inlpace=True)
 
+X=car_df.drop(['mpg'],axis=1)
+y=car_df[['mpg']]
+
+X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.30)
+model_1=LinearRegression()
+model.1.fit(X_trian,y_train)
+model_1.score(X_train,,y_train)
+model_1.score(X_test,y_test)
+
+
+from sklearrn.preprocessing import PolynomialFeatures
+from sklearn import linear_model 
+
 car_df['origin'].replace({1:'america',2:'europe',3:'asia'})
 car_df.sample(10)
 
