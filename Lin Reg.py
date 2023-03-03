@@ -1,4 +1,4 @@
-*/linear regression/*
+#*/linear regression/*
 
 
 
