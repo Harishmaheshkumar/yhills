@@ -1,3 +1,6 @@
+
+#New-York-City-Taxi-Fare-Prediction
+
 import numpy as np 
 import pandas as pd
 
@@ -11,7 +14,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import mean_squared_error as MSE
 
 
-train = pd.read_csv("train.csv", nrows = 1000000)
+train = pd.read_csv("train.csv", nrows = 1000000)(****###I used (https://raw.githubusercontent.com/Premalatha-success/Datasets/main/TaxiFare.csv))
 test = pd.read_csv("test.csv")
 
 train.head()
