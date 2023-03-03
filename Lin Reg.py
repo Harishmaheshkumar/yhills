@@ -73,7 +73,7 @@ car_df.boxplot(column.['mpg'])
 car_df.boxplot(column.['cylinders'])
 car_df
 car_df.isna().sum()
-columns=['mpg','cylinders','displacement','horsepower','weight',acceleration','model year','origin']
+columns=['mpg','cylinders','displacement','horsepower','weight','acceleration','model year','origin']
 dummies=pd.get_dummies(car_df.[columns])
 car_df=pd.concat([car_df,dummies],axis=1)
 
